@@ -64,6 +64,26 @@ def sentence_embedding(sents):
     return embedding
 
 
+def eval_wordsim(f='data/wordsim353/combined.tab'):
+    '''
+        Evaluates a trained embedding model on WordSim353 using cosine
+        similarity and Spearman's rho. Returns a tuple containing
+        (correlation, p-value).
+    '''
+    sim = []
+    pred = []
+
+    for line in open(f, 'r').readlines()[1:]:
+        splits = line.split('\t')
+        w1 = splits[0]
+        w2 = splits[1]
+        sim.append(float(splits[2]))
+        v1 = sentence_embedding(w1)
+        v2 = sentence_embedding(w2)
+        pred.append(np.dot(v1, v2)/(np.linalg.norm(v1) * np.linalg.norm(v2)))
+
+    return spearmanr(sim, pred)
+
 
 def eval_msr():
     '''
@@ -87,6 +107,10 @@ def eval_msr():
 
 
 if __name__ == "__main__":
+
+    print('[evaluate] WordSim353 correlation:')
+    ws = eval_wordsim()
+    print(ws)
 
     print('[evaluate] MSR accuracy:')
     msr = eval_msr()
