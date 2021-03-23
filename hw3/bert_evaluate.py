@@ -271,6 +271,6 @@ if __name__ == "__main__":
     bats = eval_bats(matrix, vocab, indices)
     print(bats)
 
-    # print('[evaluate] MSR accuracy:')
-    # msr = eval_msr()
-    # print(msr)
+    print('[evaluate] MSR accuracy:')
+    msr = eval_msr()
+    print(msr)
