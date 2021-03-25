@@ -1,0 +1,90 @@
+models/svd/svd_size_100_win_10.txt
+[evaluate] Loading model...
+[evaluate] Collecting matrix...
+[evaluate] WordSim353 correlation:
+SpearmanrResult(correlation=0.3646751646686152, pvalue=1.3524158208631339e-11)
+[evaluate] BATS accuracies:
+{'encyclopedic_semantics': 0.007151162790697674, 'E05 [name - occupation]': 0.025, 'E10 [male - female]': 0.0, 'E07 [animal - sound]': 0.0, 'E09 [things - color]': 0.046511627906976744, 'E08 [animal - shelter]': 0.0, 'E02 [country - language]': 0.0, 'E03 [UK_city - county]': 0.0, 'E04 [name - nationality]': 0.0, 'E06 [animal - young]': 0.0, 'E01 [country - capital]': 0.0, 'inflectional_morphology': 0.0285765306122449, 'I09 [verb_Ving - Ved]': 0.0, 'I05 [verb_inf - 3pSg]': 0.06, 'I06 [verb_inf - Ving]': 0.0, 'I04 [adj - superlative]': 0.0, 'I03 [adj - comparative]': 0.0, 'I08 [verb_Ving - 3pSg]': 0.0, 'I01 [noun - plural_reg]': 0.08163265306122448, 'I10 [verb_3pSg - Ved]': 0.04081632653061224, 'I07 [verb_inf - Ved]': 0.04081632653061224, 'I02 [noun - plural_irreg]': 0.0625, 'lexicographic_semantics': 0.043065011185511905, 'L02 [hypernyms - misc]': 0.0, 'L09 [antonyms - gradable]': 0.12244897959183673, 'L08 [synonyms - exact]': 0.0, 'L10 [antonyms - binary]': 0.15555555555555556, 'L04 [meronyms - substance]': 0.0625, 'L03 [hyponyms - misc]': 0.06382978723404255, 'L07 [synonyms - intensity]': 0.0, 'L01 [hypernyms - animals]': 0.0, 'L05 [meronyms - member]': 0.0, 'L06 [meronyms - part]': 0.02631578947368421, 'derivational_morphology': 0.0, 'D08 [verb+er_irreg]': 0.0, 'D04 [over+adj_reg]': 0.0, 'D01 [noun+less_reg]': 0.0, 'D09 [verb+tion_irreg]': 0.0, 'D05 [adj+ness_reg]': 0.0, 'D03 [adj+ly_reg]': 0.0, 'D07 [verb+able_reg]': 0.0, 'D06 [re+verb_reg]': 0.0, 'D10 [verb+ment_irreg]': 0.0, 'D02 [un+adj_reg]': 0.0, 'total': 0.019698176147113618}
+[evaluate] MSR accuracy:
+0.6498550724637682
+=============
+models/svd/svd_size_100_win_2.txt
+[evaluate] Loading model...
+[evaluate] Collecting matrix...
+[evaluate] WordSim353 correlation:
+SpearmanrResult(correlation=0.0916058065164225, pvalue=0.10029351067687038)
+[evaluate] BATS accuracies:
+{'encyclopedic_semantics': 0.05119976337486598, 'E05 [name - occupation]': 0.0, 'E10 [male - female]': 0.058823529411764705, 'E07 [animal - sound]': 0.0, 'E09 [things - color]': 0.37209302325581395, 'E08 [animal - shelter]': 0.0, 'E02 [country - language]': 0.0, 'E03 [UK_city - county]': 0.0, 'E04 [name - nationality]': 0.08108108108108109, 'E06 [animal - young]': 0.0, 'E01 [country - capital]': 0.0, 'inflectional_morphology': 0.022367346938775512, 'I09 [verb_Ving - Ved]': 0.02, 'I05 [verb_inf - 3pSg]': 0.0, 'I06 [verb_inf - Ving]': 0.0, 'I04 [adj - superlative]': 0.0, 'I03 [adj - comparative]': 0.0, 'I08 [verb_Ving - 3pSg]': 0.02, 'I01 [noun - plural_reg]': 0.04081632653061224, 'I10 [verb_3pSg - Ved]': 0.04081632653061224, 'I07 [verb_inf - Ved]': 0.10204081632653061, 'I02 [noun - plural_irreg]': 0.0, 'lexicographic_semantics': 0.06101653122029862, 'L02 [hypernyms - misc]': 0.02702702702702703, 'L09 [antonyms - gradable]': 0.16326530612244897, 'L08 [synonyms - exact]': 0.08163265306122448, 'L10 [antonyms - binary]': 0.17777777777777778, 'L04 [meronyms - substance]': 0.020833333333333332, 'L03 [hyponyms - misc]': 0.02127659574468085, 'L07 [synonyms - intensity]': 0.044444444444444446, 'L01 [hypernyms - animals]': 0.0, 'L05 [meronyms - member]': 0.02127659574468085, 'L06 [meronyms - part]': 0.05263157894736842, 'derivational_morphology': 0.0, 'D08 [verb+er_irreg]': 0.0, 'D04 [over+adj_reg]': 0.0, 'D01 [noun+less_reg]': 0.0, 'D09 [verb+tion_irreg]': 0.0, 'D05 [adj+ness_reg]': 0.0, 'D03 [adj+ly_reg]': 0.0, 'D07 [verb+able_reg]': 0.0, 'D06 [re+verb_reg]': 0.0, 'D10 [verb+ment_irreg]': 0.0, 'D02 [un+adj_reg]': 0.0, 'total': 0.03364591038348502}
+[evaluate] MSR accuracy:
+0.64
+=============
+models/svd/svd_size_100_win_5.txt
+[evaluate] Loading model...
+[evaluate] Collecting matrix...
+[evaluate] WordSim353 correlation:
+SpearmanrResult(correlation=0.2485299948058457, pvalue=6.171200183361134e-06)
+[evaluate] BATS accuracies:
+{'encyclopedic_semantics': 0.04542592524124672, 'E05 [name - occupation]': 0.05, 'E10 [male - female]': 0.11764705882352941, 'E07 [animal - sound]': 0.0, 'E09 [things - color]': 0.23255813953488372, 'E08 [animal - shelter]': 0.0, 'E02 [country - language]': 0.0, 'E03 [UK_city - county]': 0.0, 'E04 [name - nationality]': 0.05405405405405406, 'E06 [animal - young]': 0.0, 'E01 [country - capital]': 0.0, 'inflectional_morphology': 0.01620408163265306, 'I09 [verb_Ving - Ved]': 0.0, 'I05 [verb_inf - 3pSg]': 0.0, 'I06 [verb_inf - Ving]': 0.04, 'I04 [adj - superlative]': 0.0, 'I03 [adj - comparative]': 0.0, 'I08 [verb_Ving - 3pSg]': 0.02, 'I01 [noun - plural_reg]': 0.04081632653061224, 'I10 [verb_3pSg - Ved]': 0.02040816326530612, 'I07 [verb_inf - Ved]': 0.04081632653061224, 'I02 [noun - plural_irreg]': 0.0, 'lexicographic_semantics': 0.04662590233758847, 'L02 [hypernyms - misc]': 0.0, 'L09 [antonyms - gradable]': 0.04081632653061224, 'L08 [synonyms - exact]': 0.0, 'L10 [antonyms - binary]': 0.15555555555555556, 'L04 [meronyms - substance]': 0.020833333333333332, 'L03 [hyponyms - misc]': 0.1702127659574468, 'L07 [synonyms - intensity]': 0.022222222222222223, 'L01 [hypernyms - animals]': 0.030303030303030304, 'L05 [meronyms - member]': 0.0, 'L06 [meronyms - part]': 0.02631578947368421, 'derivational_morphology': 0.0, 'D08 [verb+er_irreg]': 0.0, 'D04 [over+adj_reg]': 0.0, 'D01 [noun+less_reg]': 0.0, 'D09 [verb+tion_irreg]': 0.0, 'D05 [adj+ness_reg]': 0.0, 'D03 [adj+ly_reg]': 0.0, 'D07 [verb+able_reg]': 0.0, 'D06 [re+verb_reg]': 0.0, 'D10 [verb+ment_irreg]': 0.0, 'D02 [un+adj_reg]': 0.0, 'total': 0.027063977302872064}
+[evaluate] MSR accuracy:
+0.6498550724637682
+=============
+models/svd/svd_size_300_win_10.txt
+[evaluate] Loading model...
+[evaluate] Collecting matrix...
+[evaluate] WordSim353 correlation:
+SpearmanrResult(correlation=0.3807309772847019, pvalue=1.3940333251268922e-12)
+[evaluate] BATS accuracies:
+{'encyclopedic_semantics': 0.009586056644880174, 'E05 [name - occupation]': 0.0, 'E10 [male - female]': 0.058823529411764705, 'E07 [animal - sound]': 0.0, 'E09 [things - color]': 0.0, 'E08 [animal - shelter]': 0.0, 'E02 [country - language]': 0.0, 'E03 [UK_city - county]': 0.0, 'E04 [name - nationality]': 0.0, 'E06 [animal - young]': 0.0, 'E01 [country - capital]': 0.037037037037037035, 'inflectional_morphology': 0.004124149659863945, 'I09 [verb_Ving - Ved]': 0.0, 'I05 [verb_inf - 3pSg]': 0.0, 'I06 [verb_inf - Ving]': 0.0, 'I04 [adj - superlative]': 0.0, 'I03 [adj - comparative]': 0.0, 'I08 [verb_Ving - 3pSg]': 0.0, 'I01 [noun - plural_reg]': 0.02040816326530612, 'I10 [verb_3pSg - Ved]': 0.0, 'I07 [verb_inf - Ved]': 0.0, 'I02 [noun - plural_irreg]': 0.020833333333333332, 'lexicographic_semantics': 0.018435558824296625, 'L02 [hypernyms - misc]': 0.0, 'L09 [antonyms - gradable]': 0.0, 'L08 [synonyms - exact]': 0.02040816326530612, 'L10 [antonyms - binary]': 0.022222222222222223, 'L04 [meronyms - substance]': 0.0, 'L03 [hyponyms - misc]': 0.0851063829787234, 'L07 [synonyms - intensity]': 0.0, 'L01 [hypernyms - animals]': 0.030303030303030304, 'L05 [meronyms - member]': 0.0, 'L06 [meronyms - part]': 0.02631578947368421, 'derivational_morphology': 0.0, 'D08 [verb+er_irreg]': 0.0, 'D04 [over+adj_reg]': 0.0, 'D01 [noun+less_reg]': 0.0, 'D09 [verb+tion_irreg]': 0.0, 'D05 [adj+ness_reg]': 0.0, 'D03 [adj+ly_reg]': 0.0, 'D07 [verb+able_reg]': 0.0, 'D06 [re+verb_reg]': 0.0, 'D10 [verb+ment_irreg]': 0.0, 'D02 [un+adj_reg]': 0.0, 'total': 0.008036441282260186}
+[evaluate] MSR accuracy:
+0.6510144927536232
+=============
+models/svd/svd_size_300_win_2.txt
+[evaluate] Loading model...
+[evaluate] Collecting matrix...
+[evaluate] WordSim353 correlation:
+SpearmanrResult(correlation=0.21577131532188004, pvalue=9.268087533234141e-05)
+[evaluate] BATS accuracies:
+{'encyclopedic_semantics': 0.01764890745738899, 'E05 [name - occupation]': 0.0, 'E10 [male - female]': 0.029411764705882353, 'E07 [animal - sound]': 0.0, 'E09 [things - color]': 0.09302325581395349, 'E08 [animal - shelter]': 0.0, 'E02 [country - language]': 0.0, 'E03 [UK_city - county]': 0.0, 'E04 [name - nationality]': 0.05405405405405406, 'E06 [animal - young]': 0.0, 'E01 [country - capital]': 0.0, 'inflectional_morphology': 0.03661224489795918, 'I09 [verb_Ving - Ved]': 0.02, 'I05 [verb_inf - 3pSg]': 0.0, 'I06 [verb_inf - Ving]': 0.0, 'I04 [adj - superlative]': 0.0, 'I03 [adj - comparative]': 0.0, 'I08 [verb_Ving - 3pSg]': 0.04, 'I01 [noun - plural_reg]': 0.16326530612244897, 'I10 [verb_3pSg - Ved]': 0.08163265306122448, 'I07 [verb_inf - Ved]': 0.061224489795918366, 'I02 [noun - plural_irreg]': 0.0, 'lexicographic_semantics': 0.03259851757052205, 'L02 [hypernyms - misc]': 0.0, 'L09 [antonyms - gradable]': 0.12244897959183673, 'L08 [synonyms - exact]': 0.02040816326530612, 'L10 [antonyms - binary]': 0.06666666666666667, 'L04 [meronyms - substance]': 0.0, 'L03 [hyponyms - misc]': 0.0425531914893617, 'L07 [synonyms - intensity]': 0.0, 'L01 [hypernyms - animals]': 0.0, 'L05 [meronyms - member]': 0.02127659574468085, 'L06 [meronyms - part]': 0.05263157894736842, 'derivational_morphology': 0.002173913043478261, 'D08 [verb+er_irreg]': 0.0, 'D04 [over+adj_reg]': 0.0, 'D01 [noun+less_reg]': 0.0, 'D09 [verb+tion_irreg]': 0.0, 'D05 [adj+ness_reg]': 0.0, 'D03 [adj+ly_reg]': 0.0, 'D07 [verb+able_reg]': 0.0, 'D06 [re+verb_reg]': 0.0, 'D10 [verb+ment_irreg]': 0.0, 'D02 [un+adj_reg]': 0.021739130434782608, 'total': 0.02225839574233712}
+[evaluate] MSR accuracy:
+0.64
+=============
+models/svd/svd_size_300_win_5.txt
+[evaluate] Loading model...
+[evaluate] Collecting matrix...
+[evaluate] WordSim353 correlation:
+SpearmanrResult(correlation=0.3196432869122815, pvalue=4.169555719260291e-09)
+[evaluate] BATS accuracies:
+{'encyclopedic_semantics': 0.023850762527233116, 'E05 [name - occupation]': 0.025, 'E10 [male - female]': 0.17647058823529413, 'E07 [animal - sound]': 0.0, 'E09 [things - color]': 0.0, 'E08 [animal - shelter]': 0.0, 'E02 [country - language]': 0.0, 'E03 [UK_city - county]': 0.0, 'E04 [name - nationality]': 0.0, 'E06 [animal - young]': 0.0, 'E01 [country - capital]': 0.037037037037037035, 'inflectional_morphology': 0.02049659863945578, 'I09 [verb_Ving - Ved]': 0.0, 'I05 [verb_inf - 3pSg]': 0.02, 'I06 [verb_inf - Ving]': 0.0, 'I04 [adj - superlative]': 0.0, 'I03 [adj - comparative]': 0.0, 'I08 [verb_Ving - 3pSg]': 0.02, 'I01 [noun - plural_reg]': 0.08163265306122448, 'I10 [verb_3pSg - Ved]': 0.0, 'I07 [verb_inf - Ved]': 0.0, 'I02 [noun - plural_irreg]': 0.08333333333333333, 'lexicographic_semantics': 0.020127887474512014, 'L02 [hypernyms - misc]': 0.0, 'L09 [antonyms - gradable]': 0.04081632653061224, 'L08 [synonyms - exact]': 0.0, 'L10 [antonyms - binary]': 0.044444444444444446, 'L04 [meronyms - substance]': 0.020833333333333332, 'L03 [hyponyms - misc]': 0.0425531914893617, 'L07 [synonyms - intensity]': 0.0, 'L01 [hypernyms - animals]': 0.0, 'L05 [meronyms - member]': 0.0, 'L06 [meronyms - part]': 0.05263157894736842, 'derivational_morphology': 0.0, 'D08 [verb+er_irreg]': 0.0, 'D04 [over+adj_reg]': 0.0, 'D01 [noun+less_reg]': 0.0, 'D09 [verb+tion_irreg]': 0.0, 'D05 [adj+ness_reg]': 0.0, 'D03 [adj+ly_reg]': 0.0, 'D07 [verb+able_reg]': 0.0, 'D06 [re+verb_reg]': 0.0, 'D10 [verb+ment_irreg]': 0.0, 'D02 [un+adj_reg]': 0.0, 'total': 0.016118812160300228}
+[evaluate] MSR accuracy:
+0.6463768115942029
+=============
+models/svd/svd_size_50_win_10.txt
+[evaluate] Loading model...
+[evaluate] Collecting matrix...
+[evaluate] WordSim353 correlation:
+SpearmanrResult(correlation=0.33770543065362824, pvalue=4.671990754371712e-10)
+[evaluate] BATS accuracies:
+{'encyclopedic_semantics': 0.02832509166298496, 'E05 [name - occupation]': 0.0, 'E10 [male - female]': 0.058823529411764705, 'E07 [animal - sound]': 0.0, 'E09 [things - color]': 0.09302325581395349, 'E08 [animal - shelter]': 0.0, 'E02 [country - language]': 0.030303030303030304, 'E03 [UK_city - county]': 0.0, 'E04 [name - nationality]': 0.02702702702702703, 'E06 [animal - young]': 0.0, 'E01 [country - capital]': 0.07407407407407407, 'inflectional_morphology': 0.014287414965986395, 'I09 [verb_Ving - Ved]': 0.0, 'I05 [verb_inf - 3pSg]': 0.0, 'I06 [verb_inf - Ving]': 0.0, 'I04 [adj - superlative]': 0.0, 'I03 [adj - comparative]': 0.0, 'I08 [verb_Ving - 3pSg]': 0.02, 'I01 [noun - plural_reg]': 0.061224489795918366, 'I10 [verb_3pSg - Ved]': 0.0, 'I07 [verb_inf - Ved]': 0.04081632653061224, 'I02 [noun - plural_irreg]': 0.020833333333333332, 'lexicographic_semantics': 0.04653397223925939, 'L02 [hypernyms - misc]': 0.02702702702702703, 'L09 [antonyms - gradable]': 0.08163265306122448, 'L08 [synonyms - exact]': 0.0, 'L10 [antonyms - binary]': 0.15555555555555556, 'L04 [meronyms - substance]': 0.020833333333333332, 'L03 [hyponyms - misc]': 0.10638297872340426, 'L07 [synonyms - intensity]': 0.0, 'L01 [hypernyms - animals]': 0.0, 'L05 [meronyms - member]': 0.02127659574468085, 'L06 [meronyms - part]': 0.05263157894736842, 'derivational_morphology': 0.0022222222222222222, 'D08 [verb+er_irreg]': 0.0, 'D04 [over+adj_reg]': 0.0, 'D01 [noun+less_reg]': 0.0, 'D09 [verb+tion_irreg]': 0.0, 'D05 [adj+ness_reg]': 0.0, 'D03 [adj+ly_reg]': 0.022222222222222223, 'D07 [verb+able_reg]': 0.0, 'D06 [re+verb_reg]': 0.0, 'D10 [verb+ment_irreg]': 0.0, 'D02 [un+adj_reg]': 0.0, 'total': 0.02284217527261324}
+[evaluate] MSR accuracy:
+0.6608695652173913
+=============
+models/svd/svd_size_50_win_2.txt
+[evaluate] Loading model...
+[evaluate] Collecting matrix...
+[evaluate] WordSim353 correlation:
+SpearmanrResult(correlation=0.09598597563972697, pvalue=0.08500247344386737)
+[evaluate] BATS accuracies:
+{'encyclopedic_semantics': 0.048018264502532625, 'E05 [name - occupation]': 0.0, 'E10 [male - female]': 0.14705882352941177, 'E07 [animal - sound]': 0.0, 'E09 [things - color]': 0.27906976744186046, 'E08 [animal - shelter]': 0.0, 'E02 [country - language]': 0.0, 'E03 [UK_city - county]': 0.0, 'E04 [name - nationality]': 0.05405405405405406, 'E06 [animal - young]': 0.0, 'E01 [country - capital]': 0.0, 'inflectional_morphology': 0.02636734693877551, 'I09 [verb_Ving - Ved]': 0.04, 'I05 [verb_inf - 3pSg]': 0.0, 'I06 [verb_inf - Ving]': 0.02, 'I04 [adj - superlative]': 0.0, 'I03 [adj - comparative]': 0.0, 'I08 [verb_Ving - 3pSg]': 0.02, 'I01 [noun - plural_reg]': 0.08163265306122448, 'I10 [verb_3pSg - Ved]': 0.0, 'I07 [verb_inf - Ved]': 0.10204081632653061, 'I02 [noun - plural_irreg]': 0.0, 'lexicographic_semantics': 0.03114993664505743, 'L02 [hypernyms - misc]': 0.0, 'L09 [antonyms - gradable]': 0.02040816326530612, 'L08 [synonyms - exact]': 0.0, 'L10 [antonyms - binary]': 0.2, 'L04 [meronyms - substance]': 0.0, 'L03 [hyponyms - misc]': 0.0425531914893617, 'L07 [synonyms - intensity]': 0.022222222222222223, 'L01 [hypernyms - animals]': 0.0, 'L05 [meronyms - member]': 0.0, 'L06 [meronyms - part]': 0.02631578947368421, 'derivational_morphology': 0.002173913043478261, 'D08 [verb+er_irreg]': 0.0, 'D04 [over+adj_reg]': 0.0, 'D01 [noun+less_reg]': 0.0, 'D09 [verb+tion_irreg]': 0.0, 'D05 [adj+ness_reg]': 0.0, 'D03 [adj+ly_reg]': 0.0, 'D07 [verb+able_reg]': 0.0, 'D06 [re+verb_reg]': 0.0, 'D10 [verb+ment_irreg]': 0.0, 'D02 [un+adj_reg]': 0.021739130434782608, 'total': 0.02692736528246096}
+[evaluate] MSR accuracy:
+0.6481159420289855
+=============
+models/svd/svd_size_50_win_5.txt
+[evaluate] Loading model...
+[evaluate] Collecting matrix...
+[evaluate] WordSim353 correlation:
+SpearmanrResult(correlation=0.1985542237211514, pvalue=0.00033012778044428406)
+[evaluate] BATS accuracies:
+{'encyclopedic_semantics': 0.03810862846430562, 'E05 [name - occupation]': 0.0, 'E10 [male - female]': 0.08823529411764706, 'E07 [animal - sound]': 0.0, 'E09 [things - color]': 0.2558139534883721, 'E08 [animal - shelter]': 0.0, 'E02 [country - language]': 0.0, 'E03 [UK_city - county]': 0.0, 'E04 [name - nationality]': 0.0, 'E06 [animal - young]': 0.0, 'E01 [country - capital]': 0.037037037037037035, 'inflectional_morphology': 0.023409863945578233, 'I09 [verb_Ving - Ved]': 0.0, 'I05 [verb_inf - 3pSg]': 0.0, 'I06 [verb_inf - Ving]': 0.0, 'I04 [adj - superlative]': 0.0, 'I03 [adj - comparative]': 0.05, 'I08 [verb_Ving - 3pSg]': 0.0, 'I01 [noun - plural_reg]': 0.12244897959183673, 'I10 [verb_3pSg - Ved]': 0.04081632653061224, 'I07 [verb_inf - Ved]': 0.0, 'I02 [noun - plural_irreg]': 0.020833333333333332, 'lexicographic_semantics': 0.04980850026282757, 'L02 [hypernyms - misc]': 0.02702702702702703, 'L09 [antonyms - gradable]': 0.08163265306122448, 'L08 [synonyms - exact]': 0.02040816326530612, 'L10 [antonyms - binary]': 0.13333333333333333, 'L04 [meronyms - substance]': 0.0, 'L03 [hyponyms - misc]': 0.02127659574468085, 'L07 [synonyms - intensity]': 0.022222222222222223, 'L01 [hypernyms - animals]': 0.06060606060606061, 'L05 [meronyms - member]': 0.0, 'L06 [meronyms - part]': 0.13157894736842105, 'derivational_morphology': 0.0, 'D08 [verb+er_irreg]': 0.0, 'D04 [over+adj_reg]': 0.0, 'D01 [noun+less_reg]': 0.0, 'D09 [verb+tion_irreg]': 0.0, 'D05 [adj+ness_reg]': 0.0, 'D03 [adj+ly_reg]': 0.0, 'D07 [verb+able_reg]': 0.0, 'D06 [re+verb_reg]': 0.0, 'D10 [verb+ment_irreg]': 0.0, 'D02 [un+adj_reg]': 0.0, 'total': 0.027831748168177853}
+[evaluate] MSR accuracy:
+0.6544927536231884
+=============
