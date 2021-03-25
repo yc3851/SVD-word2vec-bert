@@ -1,3 +1,17 @@
+## Training
+### 1. SVD
+- Run ```python svd_cooc.py``` followed by ```python svd_train.py```
+- Stored in `./models/svd`
+
+### 2. word2vec
+- Run ```python skipgram_train.py``` to train all the skipgram models
+- Stored in `./models/skipgram`
+
+## Evaluation
+- SVD and skipgram: ```python evaluate.py [model_file]```
+- BERT: ```python bert_evaluate.py [name-of-bert-model]```
+
+
 # battery
 
 This is the code repository for HW 3 from [Natural Language Processing, Spring 2021](http://www.cs.columbia.edu/~kathy/NLP/2021/). It contains a minimal implementation of word embedding evaluation via three tasks (two intrinsic and one intrinsic), and sample solution code that generates and evaluates embedding spaces under two different algorithms (word2vec, PPMI-SVD) and parameter settings.
